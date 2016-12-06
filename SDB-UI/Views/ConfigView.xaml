@@ -1,0 +1,15 @@
+﻿<Window x:Class="Sdb.Ui.Views.ConfigView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        DataContext="{Binding Source={StaticResource Locator}, Path=Config}"
+        Title="Config" Height="300" Width="300">
+    <Grid>        
+        <StackPanel>
+            <Label Content="Access Key"/>
+            <TextBox Text="{Binding AwsAccessKey}"/>
+            <Label Content="Secret Key"/>
+            <TextBox Text="{Binding AwsSecretKey}" />
+            <Button HorizontalAlignment="Right" Command="{Binding SaveConfigCommand}">Save</Button>
+        </StackPanel>
+    </Grid>
+</Window>

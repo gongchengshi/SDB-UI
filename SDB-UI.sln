@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDB-UI", "SDB-UI\SDB-UI.csproj", "{2AD81769-2F3B-40DA-B830-AC3C705C9179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\DotNet-Common\Common\Common.csproj", "{DD93FCFF-3B20-4877-B00C-97905F718CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections.Generic", "..\DotNet-Collections.Generic\Collections.Generic\Collections.Generic.csproj", "{1DC4D59B-9707-4912-B32F-D066E57D3528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.WPF", "..\DotNet-Common.WPF\Common.WPF\Common.WPF.csproj", "{DB0179FF-ED0C-41CE-9FC7-97454AACB570}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug MimeoCmd|Any CPU = Debug MimeoCmd|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AD81769-2F3B-40DA-B830-AC3C705C9179}.Debug MimeoCmd|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD81769-2F3B-40DA-B830-AC3C705C9179}.Debug MimeoCmd|Any CPU.Build.0 = Debug|Any CPU
+		{2AD81769-2F3B-40DA-B830-AC3C705C9179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD81769-2F3B-40DA-B830-AC3C705C9179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD81769-2F3B-40DA-B830-AC3C705C9179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD81769-2F3B-40DA-B830-AC3C705C9179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD81769-2F3B-40DA-B830-AC3C705C9179}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD81769-2F3B-40DA-B830-AC3C705C9179}.Test|Any CPU.Build.0 = Release|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Debug MimeoCmd|Any CPU.ActiveCfg = Debug MimeoCmd|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Debug MimeoCmd|Any CPU.Build.0 = Debug MimeoCmd|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Test|Any CPU.Build.0 = Test|Any CPU
+		{1DC4D59B-9707-4912-B32F-D066E57D3528}.Debug MimeoCmd|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC4D59B-9707-4912-B32F-D066E57D3528}.Debug MimeoCmd|Any CPU.Build.0 = Debug|Any CPU
+		{1DC4D59B-9707-4912-B32F-D066E57D3528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC4D59B-9707-4912-B32F-D066E57D3528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC4D59B-9707-4912-B32F-D066E57D3528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC4D59B-9707-4912-B32F-D066E57D3528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC4D59B-9707-4912-B32F-D066E57D3528}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{1DC4D59B-9707-4912-B32F-D066E57D3528}.Test|Any CPU.Build.0 = Test|Any CPU
+		{DB0179FF-ED0C-41CE-9FC7-97454AACB570}.Debug MimeoCmd|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0179FF-ED0C-41CE-9FC7-97454AACB570}.Debug MimeoCmd|Any CPU.Build.0 = Debug|Any CPU
+		{DB0179FF-ED0C-41CE-9FC7-97454AACB570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0179FF-ED0C-41CE-9FC7-97454AACB570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0179FF-ED0C-41CE-9FC7-97454AACB570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0179FF-ED0C-41CE-9FC7-97454AACB570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0179FF-ED0C-41CE-9FC7-97454AACB570}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0179FF-ED0C-41CE-9FC7-97454AACB570}.Test|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
